@@ -9,75 +9,93 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	</head>
 	<body>
-		
-		<ul>
-			<li> <a href="index.html"> Home</a></li>
-			<li> <a href="tabelas.html"> Tabelas </a></li>
-			<li> <a href="#"> Newsletter</a></li>
-			<li> <a href="pesquisa.html"> Perfil ideologico</a></li>
-		</ul>
-		
+		<header>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> Home</a></li>
+					<li> <a href="tabelas.html"> Tabelas </a></li>
+					<li> <a href="#"> Newsletter</a></li>
+					<li> <a href="pesquisa.html"> Perfil ideologico</a></li>
+					<li> <a href="videos.html"> Videos</a></li>
+				</ul>
+			</nav>
+			<hr>
 
-		<h1> Cadastro para Newsletter </h1>
+				<h1> Cadastro para Newsletter </h1>
+		</header>
 		
-		
-		<h2> Formulario para recebimento de Newsletter - Portal de Noticias </h2>
-		
-		<form>
-			<label for="txtNome">Nome: </label>
-			<input type="text" id="txtNome" maxlength="95" size="100" placeholder="Digite seu Nome"></input>
-			<br />
+		<SECTION class="forms">
+
+			<h2> Formulario para recebimento de Newsletter - Portal de Noticias </h2>
 			
-			<label for="txtSenha">Senha: </label>
-			<input type="password" id="txtSenha" placeholder="Digite uma Senha" > </input>
+			<form>
+				<label for="txtNome">Nome: </label>
+				<input type="text" id="txtNome" maxlength="95" size="100" placeholder="Digite seu Nome"></input>
+				<br />
+				
+				<label for="txtSenha">Senha: </label>
+				<input type="password" id="txtSenha" placeholder="Digite uma Senha" > </input>
+				
+				<label for="txtConfSenha">Confirmação: </label>
+				<input type="password" id="txtConfSenha" placeholder="Confirme a Senha" > </input>
+				<br />
+				
+				<label for="txtEmail">Email: </label>
+				<input type="email" id="txtEmail" placeholder="Digite seu Email"></input>
+				
+				<label for="txtConfEmail">Confirmação: </label>
+				<input type="email" id="txtConfEmail" placeholder="Confirme seu Email"></input>
+				<br />
+
+				<label for="txtBusca"> Buscar Cep:</label>
+				<input type="search" id="txtBusca" placeholder="Digite seu CEP"> </input> 
+				<br />
+
+				<label for="txtUrl" >Digite o link da sua page: </label>
+				<input type="url" id="txtUrl" placeholder="Facebook, Instagran, etc."> </input>
+				<br />
+							
+				<label for="dtDataNascimento">Data de Nascimento: </label>
+				<input type="date" id="dtDataNascimento">
+				<br />
+
+				<label for="txtNumero">Tempo que nos acompanha:</label>
+				<input type="number" id="txtNumero" min="0" max="100" placeholder="Qtd Meses"></input>
+				<br />
+
+				<label for="txtArquivo">Selecione sua Foto </label>
+				<input type="file" id="txtArquivo"></input>
+				<br />
+				<br />
+
 			
-			<label for="txtConfSenha">Confirmação: </label>
-			<input type="password" id="txtConfSenha" placeholder="Confirme a Senha" > </input>
-			<br />
+			</form>
 			
-			<label for="txtEmail">Email: </label>
-			<input type="email" id="txtEmail" placeholder="Digite seu Email"></input>
+				<input type="submit" id="txtEnvio"  /> 
+				
+				<input type="reset"  />  
+				<br />
+
+				<input type="button" id="txtEnvio2" value="Voltar" /> 
 			
-			<label for="txtConfEmail">Confirmação: </label>
-			<input type="email" id="txtConfEmail" placeholder="Confirme seu Email"></input>
-			<br />
-
-			<label for="txtBusca"> Buscar Cep:</label>
-			<input type="search" id="txtBusca" placeholder="Digite seu CEP"> </input> 
-			<br />
-
-			<label for="txtUrl" >Digite o link da sua page: </label>
-			<input type="url" id="txtUrl" placeholder="Facebook, Instagran, etc."> </input>
-			<br />
-						
-			<label for="dtDataNascimento">Data de Nascimento: </label>
-			<input type="date" id="dtDataNascimento">
-			<br />
-
-			<label for="txtNumero">Tempo que nos acompanha:</label>
-			<input type="number" id="txtNumero" min="0" max="100" placeholder="Qtd Meses"></input>
-			<br />
-
-			<label for="txtArquivo">Selecione sua Foto </label>
-			<input type="file" id="txtArquivo"></input>
-			<br />
-			<br />
-
-		
-		</form>
-		
-			<input type="submit" id="txtEnvio"  /> 
-			
-			<input type="reset"  />  
-			<br />
-
-			<input type="button" id="txtEnvio2" value="Voltar" /> 
-		
-		
+		</SECTION>
 		
 	
-	
-	
+	<hr>
+	<footer>
+		<p> &copy; 2021 Tiago Linhares </p>
+
+		<nav>
+			<ul>
+				<li> <a href="index.html"> Home</a></li>
+				<li> <a href="tabelas.html"> Tabelas </a></li>
+				<li> <a href="#"> Newsletter</a></li>
+				<li> <a href="pesquisa.html"> Perfil ideologico</a></li>
+				<li> <a href="videos.html"> Videos</a></li>
+			</ul>
+		</nav>
+
+	</footer>
 	
 
 	</body>
