@@ -1,0 +1,32 @@
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+
+.texto-italico{
+
+    font-style: italic;
+
+
+}
+
+.texto-sublinado{
+
+    text-decoration: underline;
+
+}
+
+.texto-negrito{
+
+    font-weight: 900;
+
+}
+
+.texto-marcado{
+
+    background-color: #ffff00;
+}
