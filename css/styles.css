@@ -5,17 +5,14 @@ html, body {
     padding: 0;
     font-family: 'PT Serif', serif;
     background-color: #f2f2f2;
-    
-    
-    
 }
-
+header{
+    margin-top: 0px;
+}
 
 .texto-italico{
 
     font-style: italic;
-
-
 }
 
 .texto-sublinado{
@@ -35,18 +32,13 @@ html, body {
     background-color: #ffff00;
 }
 
-header, footer{
-
-     background-color: #0D0D0D;
-    
-
-}
 
 header nav ul li a, footer nav ul li a {
     color: #f2f2f2;
 } 
 
- h2  {
+
+h2  {
     color: #0D0D0D;
 }
 p {
@@ -78,7 +70,74 @@ footer p {
 #tituloGeral{
     color: #fff;
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(4,4,70,1) 48%);
-    margin-top: 0;
+    margin-top: -15px;
     padding: 2px 40px;
    
+}
+nav  ul{
+    position: relative;
+    text-align: left;
+    background-color: #333333;
+    list-style-type: lower-roman;
+    
+
+}
+
+nav  ul li{
+    display: inline;
+    padding: 5px 5px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+nav #menuSuperior ul li a:hover{
+
+    color: #0D0D0D;
+    transition: all 1s;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+
+#copy{
+    background-color: #333333 ;
+    margin: -16px;
+    
+}
+#copy p{
+    padding-left: 60px;
+    margin-top: 10px;
+}
+#lista ul{
+    list-style-type: none;
+    
+    
+}
+#lista ul li{
+
+    background-color: #a6a6a6;
+    width: 25.4%;
+    margin-top: 1px;
+    
+
+}
+#lista ul li a{
+
+    text-decoration: none;
+    color: #0d0d0d;
+    
+
+}
+#lista ul li:hover{
+
+    background-color: #f2f2f2;
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+i{
+    margin: 10px;
 }
