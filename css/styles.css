@@ -49,20 +49,13 @@ footer p {
     color: #f2f2f2;
     
 }
-#fundoBrasil{
-    color: #fff;
-    background: url('https://wallpapercave.com/wp/wc1723370.jpg')   ;
-    background-attachment: fixed;
-    
-    text-align: center;
-}   
 #fundoBrasilBlur{
     text-align: center;
     backdrop-filter: blur(10px);
     margin: 10px 40%;
 }
 #tituloTabela{
-    color: #fff;
+    color: #0D0D0D;
 }
 #tituloCandidato{
     color: #fff;
@@ -139,5 +132,69 @@ nav #menuSuperior ul li a:hover{
     cursor: pointer;
 }
 i{
-    margin: 10px;
+    margin: 5px;
 }
+
+.tabelaVotacao{
+    background-color: #fff;
+    margin: 10px;
+    padding: 1%;
+    text-align: center;
+}
+.tabelaVotacao table{
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+.tabelaVotacao tr{
+    background-color:#a6a6a6;
+}
+
+.tabelaVotacao td{
+    margin: 10px;
+    background-color: #f2f2f2;
+}
+
+.dadosCandidatos{
+    background-color: #fff;
+    margin: -10px ;
+    padding: 1%;
+    text-align: center;
+    color: #0D0D0D;
+    
+}
+.dadosCandidatos table{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+.dadosCandidatos th{
+
+    background-color: #a6a6a6;
+
+}
+#tituloCandidato{
+    color: #0D0D0D;
+}
+.dadosCandidatos td{
+    background-color: #f2f2f2;
+}
+
+.tabelaVotacao td:hover{
+
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s;
+
+
+}
+
+
